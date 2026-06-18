@@ -1,0 +1,50 @@
+{
+  "name": "@cloudflare-graph/vue",
+  "type": "module",
+  "version": "0.0.0",
+  "private": false,
+  "author": "Estéban Soubiran <esteban@soubiran.dev>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/Barbapapazes",
+  "homepage": "https://github.com/Barbapapazes/cloudflare-graph",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Barbapapazes/cloudflare-graph/tree/main/packages/%40cloudflare-graph/vue"
+  },
+  "bugs": "https://github.com/Barbapapazes/cloudflare-graph/issues",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./components/*": "./dist/components/*",
+    "./types": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/types.js"
+    },
+    "./utils": {
+      "types": "./dist/utils.d.ts",
+      "import": "./dist/utils.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsdown"
+  },
+  "dependencies": {
+    "vue": "^3.5.38"
+  },
+  "devDependencies": {
+    "@iconify-json/ph": "^1.2.2",
+    "@vue/test-utils": "^2.4.11",
+    "@vue/tsconfig": "^0.9.1",
+    "jsdom": "^29.1.1",
+    "tsdown": "^0.22.3",
+    "typescript": "^6.0.3",
+    "unplugin-icons": "^23.0.1",
+    "unplugin-vue": "^7.2.0",
+    "vitest": "^4.1.9"
+  }
+}

@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`scrollableViewport > matches the snapshot 1`] = `
+"<div data-v-6d688a43="" class="group relative overflow-hidden">
+  <div data-v-6d688a43="" class="scrollable-viewport relative overflow-auto overscroll-contain cursor-grab max-h-24 max-w-28">
+    <div data-v-6d688a43="" class="min-h-48 min-w-56 px-4 py-3">
+      <p class="font-medium">Snapshot content</p>
+      <p class="text-sm text-neutral-500">Scrollable content keeps its wrapper structure intact.</p>
+    </div>
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>"
+`;

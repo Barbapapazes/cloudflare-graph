@@ -1,0 +1,100 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`workflowGraphConditionalBranchGroup > matches the snapshot 1`] = `
+"<li class="w-fit" data-branch-group-variant="conditional">
+  <div class="relative">
+    <div class="relative -mb-0.75 flex h-[calc(var(--connector-height)/2)] flex-col items-center" aria-hidden="true">
+      <div class="h-full w-0.5 bg-(--color-connector)"></div>
+      <div class="grid w-full grid-cols-[1fr_auto_1fr] items-center">
+        <div class="h-0.5 bg-(--color-connector)"></div>
+        <div class="size-2 rounded-xs bg-(--color-connector)"></div>
+        <div class="h-0.5 bg-(--color-connector)"></div>
+      </div>
+    </div>
+    <ul class="ml-0 flex list-none gap-4">
+      <li class="flex flex-col min-w-28" data-branch-role="condition">
+        <div class="relative flex h-6 items-start justify-center text-(--color-connector)" aria-hidden="true">
+          <div class="absolute h-0.5 bg-current left-1/2 right-0 top-0"></div>
+          <div class="absolute top-0 left-1/2 h-full w-0.5 -translate-x-1/2 bg-current"></div>
+        </div>
+        <div class="relative z-10 flex flex-col items-center">
+          <div class="w-fit rounded-full px-1.5 py-0.5 text-xs whitespace-nowrap ring ring-black/15 shadow-xs dark:ring-neutral-700 bg-white text-neutral-500 dark:bg-neutral-800 dark:text-neutral-400" title="deployment.status === &quot;success&quot;">deployment.status === "success"</div>
+          <div class="flex flex-col items-center text-(--color-connector) h-3">
+            <div class="w-0.5 grow bg-current"></div>
+          </div>
+        </div>
+        <div class="px-4">
+          <ul class="ml-0 flex list-none flex-col items-center">
+            <li>
+              <div class="w-fit">
+                <div class="mx-auto h-1.25 w-2.5 rounded-t-xs bg-(--color-connector)"></div>
+                <article class="relative z-20 w-fit overflow-hidden rounded-lg bg-white text-base ring ring-black/20 shadow-md shadow-black/7 dark:bg-neutral-900 dark:ring-neutral-800">
+                  <header class="flex justify-between border-b border-neutral-200 bg-neutral-50 px-2 py-1 text-neutral-500 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-400">
+                    <p class="font-mono text-xs">do</p>
+                  </header>
+                  <div class="flex gap-1 py-2 pr-2.5 pl-2"><span class="flex items-center" aria-hidden="true"><svg viewBox="0 0 256 256" width="1.2em" height="1.2em" class="size-4"><path fill="currentColor" d="M173.66 98.34a8 8 0 0 1 0 11.32l-56 56a8 8 0 0 1-11.32 0l-24-24a8 8 0 0 1 11.32-11.32L112 148.69l50.34-50.35a8 8 0 0 1 11.32 0M224 48v160a16 16 0 0 1-16 16H48a16 16 0 0 1-16-16V48a16 16 0 0 1 16-16h160a16 16 0 0 1 16 16m-16 160V48H48v160z"></path></svg></span><span class="min-w-0 truncate font-medium" title="publish-release">publish-release</span></div>
+                  <!--v-if-->
+                </article>
+                <div class="relative z-30 mx-auto -mt-1.5 size-3 rounded border border-black/20 bg-white dark:border-neutral-700 dark:bg-neutral-800"></div>
+              </div>
+            </li>
+            <!--v-if-->
+          </ul>
+        </div>
+        <div class="flex grow flex-col items-center text-(--color-connector) min-h-3">
+          <div class="w-0.5 grow bg-current"></div>
+        </div>
+        <div class="relative flex h-6 items-end justify-center text-(--color-connector)" aria-hidden="true">
+          <div class="absolute bottom-0 left-1/2 h-full w-0.5 -translate-x-1/2 bg-current"></div>
+          <div class="absolute h-0.5 bg-current bottom-0 left-1/2 right-0"></div>
+        </div>
+      </li>
+      <li class="flex flex-col min-w-28" data-branch-role="fallback">
+        <div class="relative flex h-6 items-start justify-center text-(--color-connector)" aria-hidden="true">
+          <div class="absolute h-0.5 bg-current left-0 right-1/2 top-0"></div>
+          <div class="absolute top-0 left-1/2 h-full w-0.5 -translate-x-1/2 bg-current"></div>
+        </div>
+        <div class="relative z-10 flex flex-col items-center">
+          <div class="w-fit rounded-full px-1.5 py-0.5 text-xs whitespace-nowrap ring ring-black/15 shadow-xs dark:ring-neutral-700 bg-white text-neutral-500 dark:bg-neutral-800 dark:text-neutral-400" title="branch 2">branch 2</div>
+          <div class="flex flex-col items-center text-(--color-connector) h-3">
+            <div class="w-0.5 grow bg-current"></div>
+          </div>
+        </div>
+        <div class="px-4">
+          <ul class="ml-0 flex list-none flex-col items-center">
+            <li>
+              <div class="w-fit">
+                <div class="mx-auto h-1.25 w-2.5 rounded-t-xs bg-(--color-connector)"></div>
+                <article class="relative z-20 w-fit overflow-hidden rounded-lg bg-white text-base ring ring-black/20 shadow-md shadow-black/7 dark:bg-neutral-900 dark:ring-neutral-800">
+                  <header class="flex justify-between border-b border-neutral-200 bg-neutral-50 px-2 py-1 text-neutral-500 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-400">
+                    <p class="font-mono text-xs">function call</p>
+                  </header>
+                  <div class="flex gap-1 py-2 pr-2.5 pl-2"><span class="flex items-center" aria-hidden="true"><svg viewBox="0 0 256 256" width="1.2em" height="1.2em" class="size-4"><path fill="currentColor" d="M173.66 98.34a8 8 0 0 1 0 11.32l-56 56a8 8 0 0 1-11.32 0l-24-24a8 8 0 0 1 11.32-11.32L112 148.69l50.34-50.35a8 8 0 0 1 11.32 0M224 48v160a16 16 0 0 1-16 16H48a16 16 0 0 1-16-16V48a16 16 0 0 1 16-16h160a16 16 0 0 1 16 16m-16 160V48H48v160z"></path></svg></span><span class="min-w-0 truncate font-medium" title="notify-team">notify-team</span></div>
+                  <p class="px-2 pb-2 text-xs text-neutral-500 dark:text-neutral-400">Calls notify-team</p>
+                </article>
+                <div class="relative z-30 mx-auto -mt-1.5 size-3 rounded border border-black/20 bg-white dark:border-neutral-700 dark:bg-neutral-800"></div>
+              </div>
+            </li>
+            <!--v-if-->
+          </ul>
+        </div>
+        <div class="flex grow flex-col items-center text-(--color-connector) min-h-3">
+          <div class="w-0.5 grow bg-current"></div>
+        </div>
+        <div class="relative flex h-6 items-end justify-center text-(--color-connector)" aria-hidden="true">
+          <div class="absolute bottom-0 left-1/2 h-full w-0.5 -translate-x-1/2 bg-current"></div>
+          <div class="absolute h-0.5 bg-current bottom-0 left-0 right-1/2"></div>
+        </div>
+      </li>
+    </ul>
+    <div class="relative -mt-0.75 -mb-0.75 flex h-[calc(var(--connector-height)/2)] flex-col-reverse items-center" aria-hidden="true">
+      <div class="h-full w-0.5 bg-(--color-connector)"></div>
+      <div class="grid w-full grid-cols-[1fr_auto_1fr] items-center">
+        <div class="h-0.5 bg-(--color-connector)"></div>
+        <div class="size-2 rounded-xs bg-(--color-connector)"></div>
+        <div class="h-0.5 bg-(--color-connector)"></div>
+      </div>
+    </div>
+  </div>
+</li>"
+`;

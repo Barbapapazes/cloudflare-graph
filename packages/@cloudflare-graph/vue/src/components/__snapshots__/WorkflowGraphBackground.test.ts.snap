@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`workflowGraphBackground > matches the snapshot 1`] = `
+"<div class="absolute inset-0 text-neutral-300 dark:text-neutral-800" aria-hidden="true"><svg width="100%" height="100%">
+    <defs>
+      <pattern id="snapshot-pattern" viewBox="-8 -8 16 16" patternUnits="userSpaceOnUse" width="16" height="16">
+        <circle cx="0" cy="0" r="1" fill="currentColor"></circle>
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#snapshot-pattern)"></rect>
+  </svg></div>"
+`;

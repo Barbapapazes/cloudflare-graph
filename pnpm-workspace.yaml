@@ -1,0 +1,7 @@
+shellEmulator: true
+
+trustPolicy: off
+
+packages:
+  - 'packages/*'
+  - 'playgrounds/*'
