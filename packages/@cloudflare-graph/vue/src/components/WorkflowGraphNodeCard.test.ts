@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
-import { nodeCardNode } from './test-fixtures'
+import { nodeCardNode } from '../../test/fixtures'
 import WorkflowGraphNodeCard from './WorkflowGraphNodeCard.vue'
 
 describe('workflowGraphNodeCard', () => {

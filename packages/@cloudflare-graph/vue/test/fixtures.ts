@@ -4,13 +4,13 @@ import type {
   WorkflowGraphNode,
   WorkflowGraphParallelKind,
   WorkflowGraphWorkflow,
-} from '../types/graph'
+} from '../src/types/graph'
 import type {
   WorkflowGraphRenderableBranchGroup,
   WorkflowGraphRenderableItem,
   WorkflowGraphRenderableNode,
-} from '../utils/workflow-graph'
-import { createWorkflowGraphViewModel } from '../utils/workflow-graph'
+} from '../src/utils/workflow-graph'
+import { createWorkflowGraphViewModel } from '../src/utils/workflow-graph'
 
 export function createDoStep(name: string) {
   return {

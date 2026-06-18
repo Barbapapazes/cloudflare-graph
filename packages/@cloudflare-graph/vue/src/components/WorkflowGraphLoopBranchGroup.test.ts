@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
-import { loopBranchGroup } from './test-fixtures'
+import { loopBranchGroup } from '../../test/fixtures'
 import WorkflowGraphLoopBranchGroup from './WorkflowGraphLoopBranchGroup.vue'
 
 describe('workflowGraphLoopBranchGroup', () => {

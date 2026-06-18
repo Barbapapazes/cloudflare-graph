@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
-import { fallbackTryBranchGroup, specialTryBranchGroup } from './test-fixtures'
+import { fallbackTryBranchGroup, specialTryBranchGroup } from '../../test/fixtures'
 import WorkflowGraphTryBranchGroup from './WorkflowGraphTryBranchGroup.vue'
 
 describe('workflowGraphTryBranchGroup', () => {

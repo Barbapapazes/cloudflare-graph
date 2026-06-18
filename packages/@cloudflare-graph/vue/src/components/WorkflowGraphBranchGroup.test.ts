@@ -5,7 +5,7 @@ import {
   loopBranchGroup,
   parallelBranchGroup,
   specialTryBranchGroup,
-} from './test-fixtures'
+} from '../../test/fixtures'
 import WorkflowGraphBranchGroup from './WorkflowGraphBranchGroup.vue'
 
 describe('workflowGraphBranchGroup', () => {
