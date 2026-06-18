@@ -3,5 +3,5 @@ shellEmulator: true
 trustPolicy: off
 
 packages:
-  - 'packages/*'
+  - 'packages/*/*'
   - 'playgrounds/*'

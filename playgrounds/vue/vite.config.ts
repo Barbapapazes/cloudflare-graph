@@ -1,6 +1,6 @@
 import vue from '@vitejs/plugin-vue'
 import type { ResolvedConfig } from 'vite'
-import type { WorkflowGraphMessage, WorkflowGraphResultInfo, WorkflowVersionGraph } from '@cloudflare-graph/vue/types'
+import type { WorkflowGraphMessage, WorkflowGraphResultInfo, WorkflowVersionGraph } from '@cloudflare-graph/vue'
 import process from 'node:process'
 import tailwindcss from '@tailwindcss/vite'
 import Cloudflare from 'cloudflare'

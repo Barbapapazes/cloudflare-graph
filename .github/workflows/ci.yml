@@ -24,7 +24,7 @@ jobs:
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
-      - run: pnpm run build
+      - run: pnpm --filter "./packages/**" run build
 
   lint:
     runs-on: ubuntu-latest
@@ -51,4 +51,4 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
       - run: pnpm run build
-      - run: pnpm dlx pkg-pr-new publish './packages/@cloudflare-graph/*''
+      - run: pnpm dlx pkg-pr-new publish './packages/@cloudflare-graph/*'
