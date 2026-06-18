@@ -6,7 +6,7 @@ export default defineConfig({
   entry: [
     './src/index.ts',
     './src/types/index.ts',
-    './src/utils/index.ts'
+    './src/utils/index.ts',
   ],
   copy: [
     {
