@@ -6,7 +6,9 @@
   "scripts": {
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "build": "pnpm run -r build",
+    "test": "pnpm run -r --if-present test:run",
+    "build": "pnpm --filter \"./packages/**\" run build",
+    "build:playgrounds": "pnpm --filter \"./playgrounds/**\" run build",
     "release": "bumpp"
   },
   "devDependencies": {

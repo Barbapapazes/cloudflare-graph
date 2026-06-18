@@ -4,7 +4,6 @@ import process from 'node:process'
 import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import Cloudflare from 'cloudflare'
-import icons from 'unplugin-icons/vite'
 import { defineConfig, loadEnv } from 'vite'
 
 export interface WorkflowVersionGraphResult {
@@ -27,9 +26,6 @@ export interface WorkflowVersionGraphResponse {
 export default defineConfig({
   plugins: [
     vue(),
-    icons({
-      autoInstall: true,
-    }),
     tailwindcss(),
     (() => {
       let resolvedConfig: ResolvedConfig | null = null

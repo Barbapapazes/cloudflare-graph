@@ -17,27 +17,25 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
-    "./components/*": "./dist/components/*",
-    "./types": {
-      "types": "./dist/types.d.ts",
-      "import": "./dist/types.js"
-    },
-    "./utils": {
-      "types": "./dist/utils.d.ts",
-      "import": "./dist/utils.js"
-    }
+    "./style.css": "./dist/style.css"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "README.md",
+    "dist"
+  ],
   "scripts": {
     "test": "vitest",
+    "test:run": "vitest run",
     "build": "tsdown"
   },
-  "dependencies": {
-    "vue": "^3.5.38"
+  "peerDependencies": {
+    "vue": "^3.5.0"
   },
   "devDependencies": {
     "@iconify-json/ph": "^1.2.2",
+    "@tsdown/css": "^0.22.3",
     "@vue/test-utils": "^2.4.11",
     "@vue/tsconfig": "^0.9.1",
     "jsdom": "^29.1.1",
@@ -45,6 +43,7 @@
     "typescript": "^6.0.3",
     "unplugin-icons": "^23.0.1",
     "unplugin-vue": "^7.2.0",
-    "vitest": "^4.1.9"
+    "vitest": "^4.1.9",
+    "vue": "^3.5.38"
   }
 }

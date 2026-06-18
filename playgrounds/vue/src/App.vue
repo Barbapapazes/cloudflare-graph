@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import graph from 'cloudflare:graph'
-import ScrollableViewport from '@cloudflare-graph/vue/components/ScrollableViewport.vue'
-import WorkflowGraph from '@cloudflare-graph/vue/components/WorkflowGraph.vue'
+import {ScrollableViewport, WorkflowGraph} from '@cloudflare-graph/vue'
 </script>
 
 <template>

@@ -5,13 +5,14 @@ import vue from 'unplugin-vue/rolldown'
 export default defineConfig({
   entry: [
     './src/index.ts',
-    './src/types/index.ts',
-    './src/utils/index.ts',
   ],
+  css: {
+    inject: true,
+  },
   copy: [
     {
-      from: './src/components/*.vue',
-      to: './dist/components',
+      from: './src/style.css',
+      to: './dist',
     },
   ],
   unbundle: true,

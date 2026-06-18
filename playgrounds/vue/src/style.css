@@ -1,3 +1,2 @@
 @import "tailwindcss";
-
-@source "../node_modules/@cloudflare-graph/vue";
+@import "@cloudflare-graph/vue/style.css";

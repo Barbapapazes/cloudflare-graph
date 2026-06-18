@@ -30,4 +30,7 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
       - run: npm install -g npm@latest
+      - run: pnpm run lint
+      - run: pnpm run test
+      - run: pnpm run build
       - run: pnpm publish -r --access public --no-git-checks
