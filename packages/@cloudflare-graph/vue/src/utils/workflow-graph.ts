@@ -323,9 +323,8 @@ function normalizeParallelNode(node: WorkflowGraphParallelNode, path: number[]):
 }
 
 function normalizeParallelBranch(node: WorkflowGraphNode, path: number[]): WorkflowGraphRenderableItem[] {
-  if (node.type === 'block' || node.type === 'function_def') {
+  if (node.type === 'block' || node.type === 'function_def')
     return flattenContainer(node, path)
-  }
 
   return normalizeNode(node, path)
 }

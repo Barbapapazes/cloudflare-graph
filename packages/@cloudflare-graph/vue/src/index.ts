@@ -1,3 +1,5 @@
-export { ScrollableViewport, WorkflowGraph } from './components'
-export * from './types'
-export * from './utils'
+import ScrollableViewport from './components/ScrollableViewport.vue'
+import WorkflowGraph from './components/WorkflowGraph.vue'
+
+export { ScrollableViewport, WorkflowGraph }
+export type { WorkflowGraphWorkflow } from './types/graph'
