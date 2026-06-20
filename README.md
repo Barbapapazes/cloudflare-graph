@@ -32,7 +32,7 @@ const workflow: WorkflowGraphWorkflow = {
 </script>
 
 <template>
-	<ScrollableViewport class="h-[32rem] w-full" viewport-class="size-full" content-class="min-h-full min-w-full w-max">
+	<ScrollableViewport class="h-128 w-full" viewport-class="size-full" content-class="min-h-full min-w-full w-max">
 		<WorkflowGraph :workflow="workflow" />
 	</ScrollableViewport>
 </template>
