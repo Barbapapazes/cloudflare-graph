@@ -1,4 +1,4 @@
-declare module 'cloudflare:graph' {
+declare module 'virtual:cloudflare-graph' {
   import type { WorkflowGraphWorkflow } from '@cloudflare-graph/vue'
 
   const graph: WorkflowGraphWorkflow

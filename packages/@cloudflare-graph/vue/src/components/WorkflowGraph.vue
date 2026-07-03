@@ -22,7 +22,7 @@ const backgroundPatternId = `workflow-graph-pattern-${useId()}`
       <div class="mx-auto w-max" style="transform: none;">
         <div
           class="relative mx-auto w-fit"
-          style="--connector-height: 50px; --color-connector: light-dark(rgb(163 163 163), rgb(82 82 82)); --color-connector-active: light-dark(rgb(115 115 115), rgb(212 212 212)); --color-background: rgb(250 250 250);"
+          style="--connector-height: 50px; --color-connector: light-dark(rgb(163 163 163), rgb(82 82 82)); --color-connector-active: light-dark(rgb(115 115 115), rgb(212 212 212)); --color-background: rgb(255 255 255);"
         >
           <div>
             <div class="relative z-30 mx-auto size-3 rounded border border-black/20 bg-white dark:border-neutral-700 dark:bg-neutral-800" />
