@@ -2,7 +2,7 @@
   "name": "cloudflare-graph",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@11.8.0",
+  "packageManager": "pnpm@12.9.1",
   "scripts": {
     "lint": "eslint",
     "lint:fix": "eslint --fix",
@@ -13,9 +13,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.0.0",
-    "bumpp": "^11.1.0",
+    "bumpp": "^12.3.0",
     "eslint": "^10.3.0",
-    "taze": "^19.14.1",
-    "typescript": "~6.0.3"
+    "taze": "^21.3.0",
+    "typescript": "~7.0.2"
   }
 }
